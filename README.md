@@ -13,7 +13,7 @@ This repository contains:
   * These texts are not part of the experimental results.
 * An Excel document containing:
   * The list of all reported errors by any of our workers.  This includes cases where there was disagreement and the file can be filtered on this.
-  * The generated texts which we evaluated, along with game and other information for them.
+  * The generated texts which we evaluated, along with game and other information for them.  Note that the IDs for these texts are not sequential, i.e. they are not S01 through S21.  The gaps in the numbering are intended and are the result of us initially planning to annotated 30 texts but then dropping 3 from each system before annotation due to time constraints.
   * The demographic information for our three Mechanical Turk workers.
   
 ## How we recruited and worked with Mechanical Turk workers (Turkers)
