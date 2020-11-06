@@ -8,13 +8,16 @@ This repository contains:
   * A fixed example of annotation.
   * The text which the workers were tasked to annotate, along with their annotations.
   * The workers found a similar volume of texts to each other and demonstrated a high level of agreement.
-* The texts we annotated ourselves
+  * For our qualifying task there can be found in [word_documents/qualifying](https://github.com/nlgcat/evaluating_accuracy/tree/main/word_documents/qualifying), for our main experiment they are in [word_documents/turker_main_experiment](https://github.com/nlgcat/evaluating_accuracy/tree/main/word_documents/turker_main_experiment).
+* The texts we annotated ourselves / in our pilot
   * These are the same texts the workers annotated, we did this as a check to ensure that workers were finding roughly the correct volume of errors.
-  * These texts are not part of the experimental results.
-* An Excel document containing:
-  * The list of all reported errors by any of our workers.  This includes cases where there was disagreement and the file can be filtered on this.
-  * The generated texts which we evaluated, along with game and other information for them.  Note that the IDs for these texts are not sequential, i.e. they are not S01 through S21.  The gaps in the numbering are intended and are the result of us initially planning to annotated 30 texts but then dropping 3 from each system before annotation due to time constraints.
-  * The demographic information for our three Mechanical Turk workers.
+  * These texts are not part of the experimental results but can be found at [word_documents/researcher](https://github.com/nlgcat/evaluating_accuracy/tree/main/word_documents/researcher) in case they are of use.
+  * Three annotations from our pilot can be found at [word_documents/pilot](https://github.com/nlgcat/evaluating_accuracy/tree/main/word_documents/pilot).
+* An Excel document ([gsml_and_other_info.xlsx](https://github.com/nlgcat/evaluating_accuracy/blob/main/gsml_and_other_info.xlsx)) containing:
+  * The Gold Standard Mistake List (sheet:GSML) showing all cases where annotators agreed there was an error.  This currently does not have Token IDs for error start and end positions, we aim to add these in the future.  They were not originally part of the protocol but will be required for the proposed shared task and as such we will update these annotations to bring them in line.
+  * The generated texts (sheet:generated_text_info) which we evaluated, along with game and other information for them.  Note that the IDs for these texts are not sequential, i.e. they are not S01 through S21.  The gaps in the numbering are intended and are the result of us initially planning to annotated 30 texts but then dropping 3 from each system before annotation due to time constraints.
+  * The demographic information (sheet:participant_info) for our three Mechanical Turk workers.
+  * The list of all reported errors (sheet:annotations) by any of our workers in the main experiment.  This includes cases where there was disagreement and the file can be filtered on this.
   
 ## How we recruited and worked with Mechanical Turk workers (Turkers)
 It was important to us that we carefully select and engage these workers.  This was both to ensure we recruited the correct people, and also to ensure that we paid them fairly for their time.  The recruitment process was as follows:
