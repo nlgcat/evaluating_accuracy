@@ -1,5 +1,5 @@
-# A Gold Standard Methodology for Evaluating Accuracy in Data-To-TextSystems
-Supporting materials for INLG2020 paper "A Gold Standard Methodology for Evaluating Accuracy in Data-To-TextSystems".
+# A Gold Standard Methodology for Evaluating Accuracy in Data-To-Text Systems
+Supporting materials for INLG2020 paper [A Gold Standard Methodology for Evaluating Accuracy in Data-To-TextSystems](https://arxiv.org/abs/2011.03992).
 
 ## What is in this repo
 This repository contains:
