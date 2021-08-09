@@ -1,6 +1,8 @@
 # A Gold Standard Methodology for Evaluating Accuracy in Data-To-Text Systems
 Supporting materials for INLG2020 paper [A Gold Standard Methodology for Evaluating Accuracy in Data-To-TextSystems](https://arxiv.org/abs/2011.03992).
 
+Please note:  This work evolved into the [Shared task on Evaluating Accuracy](https://github.com/ehudreiter/accuracySharedTask), which contains more annotated texts, as well as more detailed instructions and analysis.  It is probably the better repository to start with if you are working in this space.
+
 ## What is in this repo
 This repository contains:
 * The MS Word documents given to our Mechanical Turk workers and returned to us with annotations.  Each of these contains:
